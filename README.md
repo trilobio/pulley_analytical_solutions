@@ -8,5 +8,5 @@ using sympy. The variables and pararmeters named in `pulley_eqns.py` are referen
 Solving for all variables at once doesn't tend to converge quickly,
 so the solution is approached in two steps.
 
-Step 1: Solve for BX, BY, BCX and BCY
-Step 2: Solve for CX, CY, CDX, CDY, and DX
+1. Solve for BX, BY, BCX and BCY
+2. Solve for CX, CY, CDX, CDY, and DX
