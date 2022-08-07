@@ -1,9 +1,9 @@
 # pulley_analytical_solutions
 
 This solves for the GT-2 and GT-3 pulley tooth profile analytically
-using sympy. The variables and pararmeters named in `pulley_eqns_polar.ipynb` are referenced in the diagram below. The parameters are RAB, RBC, RCD, d, h, P. All of the other named values are variables. The origin is at AB.
+using sympy. The variables and pararmeters named in `pulley_eqns.ipynb` are referenced in the diagram below. The parameters are RAB, RBC, RCD, d, h, P. All of the other named values are variables. The origin is at AB.
 
-![Tooth Profile Diagram](/diagrams/polar_drawing_full.svg)
+![Tooth Profile Diagram](diagrams/drawing_full.svg)
 
 Solving for all variables at once doesn't tend to converge quickly (it simply never solved when I tried it, perhaps you have more patience than me, but I suspect it may take longer than your computer will last to solve),
 so the solution is approached in multiple steps.
